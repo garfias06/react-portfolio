@@ -3,7 +3,7 @@ import Portfolio from "./components/Portfolio";
 import Header from "./components/Header";
 // import AboutMe from "./components/AboutMe";
 // import Resume from "./components/Resume";
-import ContactForm from "./components/ContactForm";
+// import ContactForm from "./components/ContactForm";
 // import PageNavigation from "./components/PageNavigation";
 import Footer from "./components/Footer";
 

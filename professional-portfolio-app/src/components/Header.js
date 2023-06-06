@@ -20,6 +20,8 @@ import Navbar from 'react-bootstrap/Navbar';
 //     )
 // }
 
+// className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} missing using this properly 
+
 export default function Header({ currentPage, handlePages }) {
     return (
         <div>
@@ -37,4 +39,3 @@ export default function Header({ currentPage, handlePages }) {
         </div>
     )
 }
-// className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} missing using this properly 

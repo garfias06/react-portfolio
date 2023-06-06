@@ -11,9 +11,9 @@ export default function PageNavigation() {
 
     const showPage = () => {
         switch (currentPage) {
-            case 'About':
-                <AboutMe />
-                break;
+            // case 'About':
+            //     <AboutMe />
+            //     break;
             case 'Portfolio':
                 <Portfolio />
                 break;
