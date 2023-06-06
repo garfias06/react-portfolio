@@ -1,9 +1,14 @@
-.projects{
+.projects {
     margin: 50px;
+    height: 150px;
+    /* width: 350px; */
+    width: 25%;
 }
-.cardEffect:hover{
- box-shadow: 0 10px 40px;   
+
+.cardEffect:hover {
+    box-shadow: 0 10px 40px;
 }
-.cardEffect:active{
+
+.cardEffect:active {
     box-shadow: 0 0 10px black inset;
 }

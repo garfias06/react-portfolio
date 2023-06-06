@@ -1,7 +1,17 @@
 .resume{
+    margin-top: 20px;
     margin-left: 25%;
     margin-right: 25%;
 }
+.resume:hover{
+    box-shadow: 0 10px 30px;   
+   }
 h4, ul{ 
     text-align: center;
+    list-style: none;
+    /* font-family: ; */
+}
+.downloadBtn{
+position: relative;
+left: 20px;
 }
