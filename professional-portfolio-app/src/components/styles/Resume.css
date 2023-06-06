@@ -2,24 +2,6 @@
     margin-left: 25%;
     margin-right: 25%;
 }
-.contact ul{
-list-style: none;
-}
-.contact ul li{
-    text-align: left;
-}
-.name{
-background-color: #212529;
-color: #FFFFFF;
-}
-h2{ 
+h4, ul{ 
     text-align: center;
-}
-.objective{
-    text-align: justify;
-}
-.objective,
-.skills,
-.experience{
-    border-bottom: black solid 1px;
 }

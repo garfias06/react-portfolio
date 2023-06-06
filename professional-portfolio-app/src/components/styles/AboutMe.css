@@ -1,0 +1,11 @@
+.about {
+    margin: 70px;
+}
+
+.picture {
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    position:relative;
+    left: 40px;
+}
