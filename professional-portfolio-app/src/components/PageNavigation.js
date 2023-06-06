@@ -15,17 +15,17 @@ export default function PageNavigation() {
             //     <AboutMe />
             //     break;
             case 'Portfolio':
-                <Portfolio />
-                break;
+                return <Portfolio />
+               
             case 'Contact':
-                <ContactForm />
-                break;
+                return<ContactForm />
+      
             case 'Resume':
-                <Resume />
-                break;
+               return <Resume />
+             
             default:
-                <AboutMe />
-                break;
+                return <AboutMe />
+
         }
     }
 

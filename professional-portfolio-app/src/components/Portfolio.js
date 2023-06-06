@@ -43,9 +43,8 @@ export default function Portfolio(){
     ]
 
     return(
-        <div>
-            {cardInfo.map((item,i)=>(<PortfolioCards item={item} key={i}/>))}
-            {/* <PortfolioCards /> */}
+        <div className='projects'>
+            {cardInfo.map((item,i)=>(<PortfolioCards item={item} />))}
         </div>
     )
 }

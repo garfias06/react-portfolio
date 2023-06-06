@@ -1,8 +1,12 @@
-.projects {
-    margin: 50px;
-    height: 150px;
-    /* width: 350px; */
-    width: 25%;
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+    width: 33%;  
+    margin: 20px;
 }
 
 .cardEffect:hover {
