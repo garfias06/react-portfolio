@@ -42,8 +42,6 @@ export default function Resume() {
             </Card>
         </div>
     )
-}
+};
 
-
-// try putting this resume inside a card and see how it looks giving a shadow effect
 

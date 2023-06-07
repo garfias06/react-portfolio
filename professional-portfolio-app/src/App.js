@@ -1,14 +1,16 @@
-import React from "react";
+import React, {useEffect, useState}from "react";
 import PageNavigation from "./components/PageNavigation";
 
 export default function App() {
+  const [myName, setMyName] = useState('Ulises Garfias');
 
+  useEffect(() => {
+    document.title = myName;
+  });
+  
   return (
     <div>
       <PageNavigation />
     </div>
   )
-}
-
-// Change browser tab title that says REACT to my name, using useEffect
-// Conditional rendering to jump from page to page
+};

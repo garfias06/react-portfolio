@@ -1,12 +1,12 @@
 .projects {
     display: flex;
     flex-flow: wrap;
-    /* flex-wrap: wrap; */
     justify-content: center;
+    margin: 50px;
 }
 
 .project-card {
-    width: 30%;
+    width: 23%;
     margin: 20px;
 }
 
@@ -26,4 +26,9 @@
 .link{
     text-decoration: none;
     color: black;
+}
+.repo{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
 }

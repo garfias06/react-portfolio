@@ -10,12 +10,14 @@ export default function AboutMe() {
                 <Card.Body className="display">
                     <section>
                         <figure>
-                            {/* <ProfilePicture /> */}
                             <img className="picture" src={picture} alt="profile_picture" />
                         </figure>
                     </section>
                     <section className="text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec feugiat purus. Maecenas vel rhoncus lectus. Curabitur porta volutpat mollis. Fusce id finibus augue. Vivamus vitae neque eu sem gravida varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse varius sit amet enim fringilla consequat. Nam eu euismod purus.
+                        <p>
+                            
+                            
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec feugiat purus. Maecenas vel rhoncus lectus. Curabitur porta volutpat mollis. Fusce id finibus augue. Vivamus vitae neque eu sem gravida varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse varius sit amet enim fringilla consequat. Nam eu euismod purus.
 
                             Integer venenatis efficitur dui et feugiat. In hac habitasse platea dictumst. Proin consectetur cursus rhoncus. Vestibulum ultrices purus quam, eget tristique elit lobortis et. Praesent tellus magna, consectetur eu sapien scelerisque, semper hendrerit lacus. Phasellus lobortis arcu maximus, pharetra mi nec, dapibus metus. Donec eu tristique orci.
 
@@ -29,4 +31,4 @@ export default function AboutMe() {
         </div>
 
     )
-}
+};
