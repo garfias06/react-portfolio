@@ -9,11 +9,9 @@ import Footer from "./Footer";
 export default function PageNavigation() {
     const [currentPage, setCurrentPage] = useState('About');
 
+
     const showPage = () => {
         switch (currentPage) {
-            // case 'About':
-            //     <AboutMe />
-            //     break;
             case 'Portfolio':
                 return <Portfolio />
                

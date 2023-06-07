@@ -1,18 +1,29 @@
-.projects{
+.projects {
     display: flex;
-    flex-wrap: wrap;
-  justify-content: center;
+    flex-flow: wrap;
+    /* flex-wrap: wrap; */
+    justify-content: center;
 }
 
 .project-card {
-    width: 33%;  
+    width: 30%;
     margin: 20px;
 }
 
 .cardEffect:hover {
     box-shadow: 0 10px 40px;
+    cursor: pointer;
 }
 
 .cardEffect:active {
     box-shadow: 0 0 10px black inset;
+}
+
+.title {
+    text-align: center;
+    margin: 15px;
+}
+.link{
+    text-decoration: none;
+    color: black;
 }

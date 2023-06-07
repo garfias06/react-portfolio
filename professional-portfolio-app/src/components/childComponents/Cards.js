@@ -1,23 +1,20 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-// import Col from 'react-bootstrap/Col';
-// import Row from 'react-bootstrap/Row';
-import img1 from '../assets/Password_generator.png'
 import '../styles/Cards.css'
-
-// try to map title, text and link using div parent and a single card image and see if it displays 6 cards
 
 export default function PortfolioCards({ item }) {
 
     return (
-        <Card className='project-card'>
-            <Card.Img className="project-img" variant="top" src={img1} />
-            <Card.Body>
+        <Card className='project-card cardEffect' >
+             <Card.Link href={item.link} className='link'>
+            <Card.Img variant="top" src={item.img} />
+            <Card.Body text="white" bg="dark" >
+                <Card.Title className='title'>{item.title}</Card.Title>
                 <Card.Text>
                     {item.text}
                 </Card.Text>
             </Card.Body>
+            </Card.Link>
         </Card>
     )
 }
-

@@ -33,5 +33,3 @@ export default function ContactForm() {
 
   );
 }
-
-// try putting this form inside a card, center the card and keep the light gray background in the page

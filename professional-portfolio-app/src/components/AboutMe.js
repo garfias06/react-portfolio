@@ -3,8 +3,6 @@ import Card from 'react-bootstrap/Card';
 import './styles/AboutMe.css'
 import picture from './assets/Profile_Picture.jpeg';
 
-// try adding text and image to a card and set a light gray background to the page.
-
 export default function AboutMe() {
     return (
         <div className="about">
