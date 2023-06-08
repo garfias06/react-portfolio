@@ -17,6 +17,9 @@ React is a free and open-source front-end JavaScript library for building user i
 - command to install React-bootstrap: npm install react-bootstrap bootstrap
 
 ## Usage
+
+Deployed Website URL: https://garfias06.github.io/react-portfolio/
+
 Once the website loads the user will be presented with the main page which will be called "About Me" and the Navigation bar on the top will take the user to different pages in the portfolio.
 ![about](readme_assets/about.jpg)
 
