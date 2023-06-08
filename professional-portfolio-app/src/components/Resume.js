@@ -8,8 +8,8 @@ export default function Resume() {
         <div className="resume">
             <Card text="white" bg="dark">
                 <Card.Body>
-                    <Button variant="light" type="submit" className="downloadBtn">
-                        Download Resume
+                    <Button variant="light" type="submit" className="downloadBtn" href="https://docs.google.com/document/d/1bdiqCtmuJxY-ugeYN0JdRTSZ68r76BXynXdb5neeUHM/edit?usp=sharing">
+                        View Resume
                     </Button>
                     <section className="center">
                         <h4>Programming Languages</h4>
