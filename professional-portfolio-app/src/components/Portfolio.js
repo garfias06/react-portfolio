@@ -3,7 +3,7 @@ import PortfolioCards from './childComponents/Cards';
 import img1 from './assets/Password_generator.png';
 import img2 from './assets/Nutricipe.png';
 import img3 from './assets/Readme_generator.png';
-import img4 from './assets/Refactoring.png';
+import img4 from './assets/quell.jpg';
 import img5 from './assets/Calendar.png';
 import img6 from './assets/backend.jpg';
 
@@ -33,10 +33,10 @@ export default function Portfolio() {
             img: img3
         },
         {
-            title: "Code Refactoring",
-            text: "Given an existing website, the code had to be refactored for accessibility.",
-            link: "https://garfias06.github.io/challenge-1/",
-            repo:"https://github.com/garfias06/challenge-1",
+            title: "Quell",
+            text: "A supportive and empowering community platform dedicated to fostering mental well-being and personal growth.",
+            link: "https://quell-mental-health-9f784a2642a5.herokuapp.com/",
+            repo:"https://github.com/roshniipatel/quell",
             img: img4
         },
         {
